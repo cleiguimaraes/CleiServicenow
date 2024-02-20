@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6cc62954972002101f9f7e70f053af8b" label="Tipo de Material" max_length="40" name="x_1156388_primei_0_tipo_de_material" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Tipo" max_length="40" name="tipo" type="string"/>
+    </element>
+</database>

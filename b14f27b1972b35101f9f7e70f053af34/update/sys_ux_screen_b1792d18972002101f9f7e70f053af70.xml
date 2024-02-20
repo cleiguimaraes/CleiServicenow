@@ -4,7 +4,7 @@
         <app_config display_value="Tratamento de Material Config">13692918162002109fae558df5e33799</app_config>
         <description/>
         <event_mappings>[ ]</event_mappings>
-        <macroponent display_value="Estoque de Material">7d792d18972002101f9f7e70f053af67</macroponent>
+        <macroponent display_value="Estoque de Material Record Page">7d792d18972002101f9f7e70f053af67</macroponent>
         <macroponent_config>{
   "views" : {
     "type" : "JSON_LITERAL",

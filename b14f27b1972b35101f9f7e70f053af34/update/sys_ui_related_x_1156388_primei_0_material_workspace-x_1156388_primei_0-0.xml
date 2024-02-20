@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1156388_primei_0_material" version="2" view="workspace-tratamento-de-material-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Material - Workspace Tratamento de Material 0" name="x_1156388_primei_0_material" related_list="NULL" sys_domain="global" view="576929188f200210ca5c8d25112b318e">f5792d18972002101f9f7e70f053afd1</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 03:18:21</sys_created_on>
+            <sys_id>35792d18972002101f9f7e70f053afd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:18:21</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Material - Workspace Tratamento de Material 0</calculated_name>
+            <filter/>
+            <name>x_1156388_primei_0_material</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-20 03:18:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5792d18972002101f9f7e70f053afd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Material - Workspace-x 1156388 primei 0-0</sys_name>
+            <sys_package display_value="Primeira Aplicação" source="x_1156388_primei_0">b14f27b1972b35101f9f7e70f053af34</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primeira Aplicação">b14f27b1972b35101f9f7e70f053af34</sys_scope>
+            <sys_update_name>sys_ui_related_x_1156388_primei_0_material_Workspace-x_1156388_primei_0-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:18:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Tratamento de Material 0" name="workspace-tratamento-de-material-0">576929188f200210ca5c8d25112b318e</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

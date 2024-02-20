@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="06f0bff1972b35101f9f7e70f053af17" extends="task" label="Material" max_length="40" name="x_1156388_primei_0_material" text_index="true" type="collection">
+        <element label="E-mail" max_length="250" name="e_mail" type="string"/>
+        <element label="Material" max_length="40" name="material" type="choice">
+            <choice/>
+        </element>
+        <element label="Quantidade" max_length="40" name="quantidade" type="integer"/>
+        <element label="Solicitante" max_length="32" name="solicitante" reference="sys_user" type="reference"/>
+    </element>
+</database>
