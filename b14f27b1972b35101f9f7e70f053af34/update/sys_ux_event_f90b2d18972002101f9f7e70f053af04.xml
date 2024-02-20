@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_c7bae598972002101f9f7e70f053af3b</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Add parameters to URL Relay (Lista de Material)</label>
+        <props>[{"name":"params","fieldType":"json","interfaceApiName":null,"label":"Parameters"}]</props>
+        <required_translations>[ {
+  "message" : "Parameters",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:25:11</sys_created_on>
+        <sys_id>f90b2d18972002101f9f7e70f053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add parameters to URL Relay (Lista de Material)</sys_name>
+        <sys_package display_value="Primeira Aplicação" source="x_1156388_primei_0">b14f27b1972b35101f9f7e70f053af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primeira Aplicação">b14f27b1972b35101f9f7e70f053af34</sys_scope>
+        <sys_update_name>sys_ux_event_f90b2d18972002101f9f7e70f053af04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:25:11</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=f90b2d18972002101f9f7e70f053af04"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f90b2d18972002101f9f7e70f053af04</documentkey>
+        <fieldname>description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:25:11</sys_created_on>
+        <sys_id>310b61d8972002101f9f7e70f053af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:25:11</sys_updated_on>
+        <tablename>sys_ux_event</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

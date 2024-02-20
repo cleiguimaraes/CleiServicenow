@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Tratamento de Material</description>
+        <genius_result_assembly/>
+        <label>tratamento-de-material Search Profile</label>
+        <name>x_1156388_primei_0_fxcmzzk_search_profile</name>
+        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <state>DRAFT</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:18:11</sys_created_on>
+        <sys_id>5f6929189b2002102917d8f807b2d997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>tratamento-de-material Search Profile</sys_name>
+        <sys_package display_value="Primeira Aplicação" source="x_1156388_primei_0">b14f27b1972b35101f9f7e70f053af34</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Primeira Aplicação">b14f27b1972b35101f9f7e70f053af34</sys_scope>
+        <sys_update_name>ais_search_profile_5f6929189b2002102917d8f807b2d997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:18:18</sys_updated_on>
+    </ais_search_profile>
+</record_update>

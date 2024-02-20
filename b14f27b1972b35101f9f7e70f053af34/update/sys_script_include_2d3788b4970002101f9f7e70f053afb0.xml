@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1156388_primei_0.Aula_9</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Aula_9</name>
+        <script><![CDATA[var Aula_9 = Class.create();
+Aula_9.prototype = {
+    initialize: function() {},
+/*
+    mundoStarWars: function(Person) {
+        var obterDadosPersonagem = new sn_ws.RESTMessageV2();
+        obterDadosPersonagem.setEndpoint("https://swapi.dev/api/people/${person}/");
+		obterDadosPersonagem.setStringParameterNoEscape("person", Person);
+        obterDadosPersonagem.setHttpMethod("GET");
+
+        var Response = obterDadosPersonagem.execute();
+		var CodeStatus = Response.getStatusCode();
+        var Info = Response.getBody();
+        Info = JSON.parse(Info);
+
+		var planeta = new sn_ws.RESTMessageV2();
+		planeta.setEndpoint(Info.homeworld);
+		planeta.setHttpMethod("GET");
+		
+		var ResponseWord = planeta.execute();
+		var InfoWord = ResponseWord.getBody();
+		InfoWord = JSON.parse(InfoWord);
+		
+		gs.info("STATUS CODE " + CodeStatus);
+        gs.info("Nome: 	" + Info.name);
+        gs.info("Altura: 	" + Info.height);
+		gs.info("Peso: 	" + Info.mass);
+        gs.info("Cor dos Olhos: 	" + Info.eye_color);
+		gs.info("Gênero: 	" + Info.gender);
+		gs.info("Planeta Natal:	  " + InfoWord.name);
+
+    },
+
+*/
+    chuckNorris: function() {
+        var obterInformacoesChuckNorris = new sn_ws.RESTMessageV2();
+        obterInformacoesChuckNorris.setEndpoint("https://api.chucknorris.io/jokes/random");
+        obterInformacoesChuckNorris.setHttpMethod("GET");
+        var Response = obterInformacoesChuckNorris.execute();
+        var Info = Response.getBody();
+        Info = JSON.parse(Info);
+        gs.info("INFORMAÇÕES CHUCK NORRIS: 	" + Info.value);
+        gs.info("INFORMAÇÕES CHUCK NORRIS: 	" + Info.updated_at);
+
+    },
+
+    consultarCEP: function(CEP) {
+
+
+        var obterCEP = new sn_ws.RESTMessageV2();
+        obterCEP.setEndpoint("https://viacep.com.br/ws/${cep}/json/");
+        obterCEP.setStringParameterNoEscape("cep", CEP);
+        obterCEP.setHttpMethod("GET");
+
+        var Response = obterCEP.execute();
+        var ResponseBody = Response.getBody();
+        var HttpStatus = Response.getStatusCode();
+        ResponseBody = JSON.parse(ResponseBody);
+
+
+        gs.info("STATUS CODE " + HttpStatus);
+        gs.info("INFO CEP " + ResponseBody);
+        gs.info("Bairro - " + ResponseBody.bairro);
+
+
+    },
+
+
+
+    type: 'Aula_9'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 13:06:02</sys_created_on>
+        <sys_id>2d3788b4970002101f9f7e70f053afb0</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Aula_9</sys_name>
+        <sys_package display_value="Primeira Aplicação" source="x_1156388_primei_0">b14f27b1972b35101f9f7e70f053af34</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Primeira Aplicação">b14f27b1972b35101f9f7e70f053af34</sys_scope>
+        <sys_update_name>sys_script_include_2d3788b4970002101f9f7e70f053afb0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-03 04:27:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

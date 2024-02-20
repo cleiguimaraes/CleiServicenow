@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="material" label="Material" language="pb" table="x_1156388_primei_0_material">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>material</element>
+            <help/>
+            <hint/>
+            <label>Material</label>
+            <language>pb</language>
+            <name>x_1156388_primei_0_material</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-06 13:19:45</sys_created_on>
+            <sys_id>30938c86976b35101f9f7e70f053af6c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Material</sys_name>
+            <sys_package display_value="Primeira Aplicação" source="x_1156388_primei_0">b14f27b1972b35101f9f7e70f053af34</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Primeira Aplicação">b14f27b1972b35101f9f7e70f053af34</sys_scope>
+            <sys_update_name>sys_documentation_x_1156388_primei_0_material_material_pb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-20 03:09:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
